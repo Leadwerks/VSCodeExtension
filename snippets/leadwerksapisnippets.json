@@ -2,50 +2,45 @@
     "CreatePivot": {
         "prefix": "CreatePivot",
         "description": "Creates a new pivot entity.",
-        "body": [
-            "CreatePivot($world)"
-        ]
+        "body": "CreatePivot($world)"
     },
     "CreateWindow": {
         "prefix": "CreateWindow",
         "description": "Creates a new Window.",
-        "body": [
-            "CreateWindow($display, $title, $x, $y, $width, $height, $style)"
-        ]
+        "body":  "CreateWindow($display, $title, $x, $y, $width, $height, $style)"
     },
     "LoadScene": {
         "prefix": "LoadScene",
         "description": "Loads a scene file.",
-        "body": [
-            "LoadScene($world, $filename)"
-        ]
+        "body": "LoadScene($world, $filename)"
     },
     "LoadScene(2)": {
         "prefix": "LoadScene",
         "description": "Loads a scene file.",
-        "body": [
-            "LoadScene($world, $filename, $loadflags)"
-        ]
+        "body": "LoadScene($world, $filename, $loadflags)"
     },    
     "WINDOW_TITLEBAR": {
         "prefix": "WINDOW_TITLEBAR",
-        "description": "Adds a title bar at the top of the window.",
-        "body": [
-            "WINDOW_TITLEBAR"
-        ]
-    },    
+        "body": "WINDOW_TITLEBAR"
+    },
+    "Entity.SetPo33sition": {
+        "prefix": "Entity:SetPosition",
+        "description": "Sets the position of an entity in 3-dimensional space, using local or global coordinates.",
+        "body": ":SetPosition($x, $y, $z)"
+    },
     "Entity.SetPosition": {
         "prefix": "Entity:SetPosition",
         "description": "Sets the position of an entity in 3-dimensional space, using local or global coordinates.",
-        "body": [
-            ":SetPosition($x, $y, $z, $global)"
-        ]
+        "body": ":SetPosition($x, $y, $z, $global)"
+    },
+    "Eddntity.SetPosition(2)": {
+        "prefix": "Entity:SetPosition",
+        "description": "Sets the position of an entity in 3-dimensional space, using local or global coordinates.",
+        "body": ":SetPosition($position)"
     },
     "Entity.SetPosition(2)": {
         "prefix": "Entity:SetPosition",
         "description": "Sets the position of an entity in 3-dimensional space, using local or global coordinates.",
-        "body": [
-            ":SetPosition($position, $global)"
-        ]
+        "body": ":SetPosition($position, $global)"
     }    
 }
