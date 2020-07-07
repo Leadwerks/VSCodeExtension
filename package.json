@@ -28,10 +28,6 @@
         "snippets": [
             {
                 "language": "lua",
-                "path": "./snippets/snippets.json"
-            },
-            {
-                "language": "lua",
                 "path": "./snippets/leadwerksapisnippets.json"
             }
         ],
