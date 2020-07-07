@@ -13,6 +13,20 @@
             "CreateWindow($display, $title, $x, $y, $width, $height, $style)"
         ]
     },
+    "LoadScene": {
+        "prefix": "LoadScene",
+        "description": "Loads a scene file.",
+        "body": [
+            "LoadScene($world, $filename)"
+        ]
+    },
+    "LoadScene(2)": {
+        "prefix": "LoadScene",
+        "description": "Loads a scene file.",
+        "body": [
+            "LoadScene($world, $filename, $loadflags)"
+        ]
+    },    
     "WINDOW_TITLEBAR": {
         "prefix": "WINDOW_TITLEBAR",
         "description": "Adds a title bar at the top of the window.",
